@@ -53,7 +53,7 @@ namespace bluestacks
 
         public static void Save()
         {
-            if (Instance == null || InterceptionManager.Modules.Count < 8)
+            if (Instance == null)
                 return;
 
             try
